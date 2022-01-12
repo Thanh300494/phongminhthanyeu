@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanhcute</title>
+    <link rel="icon" href="./asset/img/thanh.png"  type="image/icon type">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div id="btn">
+        <button onclick="maudo()" id="maudo">màu đỏ</button>
+        <button onclick="mauxanh()" id="mauxanh">màu xanh</button>
+        <button onclick="mauvang()" id="mauvang">màu vàng</button>
+        <button onclick="reset()" id="reset">reset</button>
+    </div>
+    <div id="pharagrap">
+        <p>
+            <b>III.12 </b> là ngôi nhà thứ hai của <b>Thanh</b> cũng như là ngôi nhà thứ 2 của các bạn: <b> <i> Thu,Tâm,Hoa,Yến,Thoa,Mai. </i></b>
+           Ở đây có đã từng chan chứa tiếng khóc mỗi khi chia tay người yêu, hay mỗi khi có chuyện buồn về gia đình,
+           hoặc điểm thấp,... Ở đây đôi khi cũng có những dỗi hờn, ghen tị, nhưng lại chứa chan nhiều kỉ niệm, niềm vui.
+           Bao kí ức cùng nhau học tập, cùng nhau dọn dẹp phòng, cùng nhau ngồi xem úp chăn khi trời lạnh để xem phim 
+           với Hoa. Nhớ những lúc đi học về cả phòng rủ nhau ăn lẩu mì tôm(<i> nhưng chỉ có mì tôm với rau thui </i>) mà rau lại phải 
+           đi ăn tờ rộm, những lúc đó vui biết bao,vô âu, vô lo lại vô cùng ấm áp. Rồi những bữa sinh nhật chỉ ăn ở phòng
+           với một chút đồ mua từ căng tin thui nhưng nó thật khiến người ta không thể nào quên được.Hết chữ rồi nhé!
+        </p>
+    </div>
+    <div id="end">
+        <h2>end!</h2>
+    </div> 
+    
+    <div class="container">
+        <h1>Danh sách thành viên III.12 </h1>
+        <ul class="tab">
+            <li onclick="changeProductList('trend',this)" class="tab-item active">Thanh</li>
+            <li onclick="changeProductList('new',this)" class="tab-item">Thu</li>
+            <li onclick="changeProductList('best-sell',this)" class="tab-item">Hoa</li>
+            <li onclick="changeProductList('thoa',this)" class="tab-item">Thoa</li>
+            <li onclick="changeProductList('best-sell',this)" class="tab-item">Yến</li>
+            <li onclick="changeProductList('best-sell',this)" class="tab-item">Tâm</li>
+            <li onclick="changeProductList('best-sell',this)" class="tab-item">Mai</li>
+
+        </ul>
+        <div id="trend" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/thanh1.jpg" alt=""></li>
+                <li> <img src="./asset/img/thanh8.jpg" alt=""></li>
+                <li> <img src="./asset/img/thanh3.jpg" alt=""></li>
+                <li> <img src="./asset/img/thanh4.jpg" alt=""></li>
+                <li><img src="./asset/img/thanh5.jpg" alt=""></li>
+                <li> <img src="./asset/img/thanh6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="new" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/thu1.jpg" alt=""></li>
+                <li> <img src="./asset/img/thu2.jpg" alt=""></li>
+                <li> <img src="./asset/img/thu3.jpg" alt=""></li>
+                <li> <img src="./asset/img/thu4.jpg" alt=""></li>
+                <li><img src="./asset/img/thu5.jpg" alt=""></li>
+                <li> <img src="./asset/img/thu6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="best-sell" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/hoa1.jpg" alt=""></li>
+                <li> <img src="./asset/img/hoa2.jpg" alt=""></li>
+                <li> <img src="./asset/img/hoa3.jpg" alt=""></li>
+                <li> <img src="./asset/img/hoa4.jpg" alt=""></li>
+                <li><img src="./asset/img/hoa5.jpg" alt=""></li>
+                <li> <img src="./asset/img/hoa6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="Thoa" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/thoa1.jpg" alt=""></li>
+                <li> <img src="./asset/img/thoa2.jpg" alt=""></li>
+                <li> <img src="./asset/img/thoa3.jpg" alt=""></li>
+                <li> <img src="./asset/img/thoa4.jpg" alt=""></li>
+                <li><img src="./asset/img/thoa5.jpg" alt=""></li>
+                <li> <img src="./asset/img/thoa6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="yen" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/yen1.jpg" alt=""></li>
+                <li> <img src="./asset/img/yen2.jpg" alt=""></li>
+                <li> <img src="./asset/img/yen3.jpg" alt=""></li>
+                <li> <img src="./asset/img/yen4.jpg" alt=""></li>
+                <li><img src="./asset/img/yen5.jpg" alt=""></li>
+                <li> <img src="./asset/img/yen6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="tam" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/tam1.jpg" alt=""></li>
+                <li> <img src="./asset/img/tam2.jpg" alt=""></li>
+                <li> <img src="./asset/img/tam1.jpg" alt=""></li>
+                <li> <img src="./asset/img/tam2.jpg" alt=""></li>
+                <li> <img src="./asset/img/tam1.jpg" alt=""></li>
+                <li> <img src="./asset/img/tam2.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div id="mai" class="animation">
+            <ul class="product-list">
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+                <li> <img src="./asset/img/mai1.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Bản quyền thuộc chủ sở hữu @Thanhcute </p>
+            <p>Mọi thông tin chi tiết xin liên hệ: 0985780021 hoặc qua email: lamthanh200294@gmai.com</p>
+            <p class="icon"> 
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-envelope-square"></i>
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
